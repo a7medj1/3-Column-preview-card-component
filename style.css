@@ -26,10 +26,9 @@
     margin: 50px 0px 30px 0px;
 }
 
-.sedans h2{
+.sedans-text{
     color: #fff;
 }
-
 .sedans p{
     position: relative;
     top: 27px;
@@ -166,8 +165,8 @@
 }
 
 h2{
-    font-family: 'BigShouldersDisplay';
-    font-weight: 700;
+    font-family: "BigShouldersDisplay";
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 840px) {
