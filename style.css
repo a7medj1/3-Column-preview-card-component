@@ -78,7 +78,7 @@
 }
 
 .suvs-text{
-    
+
     color: #fff;
 }
 
@@ -163,6 +163,10 @@
 
 .luxury img, .luxury-text{
     padding: 0px 40px;
+}
+
+h2{
+    font-family: 'BigShouldersDisplay-Black';
 }
 
 @media only screen and (max-width: 840px) {
