@@ -26,21 +26,24 @@
     margin: 50px 0px 30px 0px;
 }
 
-.sedans-text{
-    color: #fff;
-}
+
 .sedans p{
     position: relative;
     top: 27px;
-    font-size: 15px;
+    padding: 0 0 0 40px;
     font-weight: 400;
     color: hsl(32.07,82.86%,72.55%);
     line-height: 1.4;
 }
 
+.sedans h2{
+    color: #fff;
+    padding: 0 0 0 40px;
+}
+
 .sedans-btn{
     position: relative;
-    top: 147px;
+    top: 135px;
     justify-content: center;
     color: hsl(30.48,76.52%,51.57%);
     width: 140px;
@@ -84,15 +87,20 @@
 .suvs p{
     position: relative;
     top: 27px;
-    font-size: 15px;
+    padding: 0px 0px 0 40px;
     font-weight: 400;
     color: hsl(182.67,40.91%,56.86%);
     line-height: 1.4;
 }
 
+.suvs h2{
+    color: #fff;
+    padding: 0 0px 0px 40px;
+}
+
 .suvs-btn{
     position: relative;
-    top: 147px;
+    top: 135px;
     color: hsl(184.78,98.26%,22.55%);
     width: 140px;
     height: 50px;
@@ -127,22 +135,24 @@
     margin: 50px 0px 30px 0px;
 }
 
-.luxury-text{
-    margin: 0px 0px 120px 0px;
-    color: #fff;
-}
 
 .luxury p{
     position: relative;
     top: 27px;
-    font-size: 15px;
+    padding: 0px 0px 0px 40px;
     font-weight: 400;
     color: hsl(180,16.47%,51.18%);
     line-height: 1.4;
 }
 
+.luxury h2{
+    color: #fff;
+    padding: 0px 0px 0px 40px;
+}
+
 .luxury-btn{
     position: relative;
+    top: 135px;
     color: hsl(179, 97%, 12%);
     width: 140px;
     height: 50px;
@@ -150,7 +160,7 @@
     border-radius: 25px;
     background-color: #fff;
     cursor: pointer;
-    margin: 28px 40px;
+    margin: 0px 40px;
     transition: 0.4s;
 }
 
@@ -165,12 +175,28 @@
 }
 
 h2{
-    font-family: "BigShouldersDisplay";
+    font-size: 32px;
+    font-family: "neue montreal";
     font-weight: bold;
 }
 
-@media only screen and (max-width: 840px) {
-    .cards{
+@media only screen and (max-width: 1024px){
+    p{
+        font-size: 17px;
+    }
+    .sedans, .suvs, .luxury, h2 p{
+
+        .suvs-btn, .sedans-btn, .luxury-btn{
+            top: 55px;
+        }
+
+        font-size: 32px;
+        width: 900px;
        border-radius: 0px;
     }
-  }
+
+    .sedans-btn, .suvs-btn, .luxury-btn{
+        margin: 50px 0px 0 40px;
+         
+    }
+}
